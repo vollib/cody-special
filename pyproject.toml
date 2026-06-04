@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cody-special"
-version = "1.0.0"
+version = "1.0.1"
 description = "High-precision error functions and normal distribution (Cody's algorithm)"
 authors = ["vollib team"]
 license = "MIT"
@@ -10,7 +10,7 @@ keywords = ["error function", "erf", "erfc", "normal distribution", "cdf", "stat
 packages = [{include = "cody_special"}]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">3.9"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.0"
